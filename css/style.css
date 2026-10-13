@@ -1,0 +1,7 @@
+body { background: #f1f5f9; color: #172033; }
+.form-panel { max-width: 760px; margin: auto; background: white; padding: 32px; border-radius: 16px; box-shadow: 0 6px 24px rgba(15,23,42,.07); }
+.feedback-text { font-size: .875rem; margin-top: 4px; }
+.feedback-text.error { color: #dc3545; }
+.feedback-text.success { color: #198754; }
+.result { font-weight: 600; }
+@media (max-width: 576px) { .form-panel { padding: 20px; } }
